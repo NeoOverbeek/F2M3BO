@@ -20,17 +20,17 @@ html{
 }
 
 .tijd-p{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .tijd{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
 .container{
-    height: 40rem;
-    width: 40rem;
+    height: 35rem;
+    width: 35rem;
     background-color: white;
     margin: 1rem;
     border-radius: 2rem;
@@ -41,9 +41,50 @@ html{
     flex-direction: column;
 }
 
+.container2{
+    height: 74rem;
+    width: 35rem;
+    background-color: white;
+    margin: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 2rem 0 rgb(133, 133, 133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container3{
+    height: 35rem;
+    width: 35rem;
+    background-color: white;
+    margin-top: -36rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 2rem 0 rgb(133, 133, 133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container4{
+    height: 35rem;
+    width: 35rem;
+    background-color: white;
+    margin-top: -36rem;
+    margin-left: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 2rem 0 rgb(133, 133, 133);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .bingchilling{
-    height: 40rem;
-    width: 40rem;
+    height: 35rem;
+    width: 35rem;
     background-color: white;
     margin: 1rem;
     border-radius: 2rem;
