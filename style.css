@@ -8,11 +8,11 @@
 }
 
 body{
-    height: 100vh;
     background-color: rgb(214, 237, 255);
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 html{
@@ -28,30 +28,24 @@ html{
     font-weight: bold;
 }
 
-.container{
-    height: 35rem;
-    width: 35rem;
-    background-color: white;
-    margin: 1rem;
-    border-radius: 2rem;
-    box-shadow: 0 1rem 2rem 0 rgb(133, 133, 133);
+li{
+    height:50vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    gap: 5rem;
+    padding-top: 5rem;
 }
 
-.bingchilling{
-    height: 35rem;
-    width: 35rem;
+.container{
+    list-style: none;
     background-color: white;
-    margin: 1rem;
     border-radius: 2rem;
     box-shadow: 0 1rem 2rem 0 rgb(133, 133, 133);
+    width: 40rem;
+    height: 40rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
 .weather > img{
@@ -73,4 +67,17 @@ html{
 .Chance{
     font-size: 2rem;
     margin: 2rem;
+}
+
+.TitelZO{
+    font-size: 3rem;
+}
+
+.zonneStand{
+    font-size: 2rem;
+}
+
+.large--container{
+    width: 85rem;
+    height: 50rem;
 }

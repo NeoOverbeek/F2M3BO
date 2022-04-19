@@ -9,29 +9,43 @@
     <script src="script.js" defer></script>
 </head>
 <body onload=display_ct();>
-    <article class="container"> <!--Gemaakt door Yannick--> 
-        <p class="tijd-p">Actuele tijd en datum:</p>
-        <span id='ct' class="tijd" ></span>
-    </article>
-
-    <article class="bingchilling"> <!--Gemaakt door Neo de pio-->
-        <p class="TitelZS">Zonne Status</p>
-        <p class="zonneStand">Big dicking</p>
-    </article>
- 
-    <article class="container"> <!--Gemaakt door Yannick-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script> 
-        <canvas id="myChart"></canvas>
-    </article>
-    
-    <article class="container">
-        <div class="weather">
-            <p class="city">Weer in Nederland</p>
-            <p class="temp">16°C</p>
-            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="" class="icon">
-            <p class="Chance">Kans op regen: 50%</p>
-        </div>
-    </article>
+    <li>
+        <!-- Tijd en datum -->
+        <ul class="container container-one">
+            <p class="tijd-p">Actuele tijd en datum:</p>
+            <span id='ct' class="tijd" ></span>
+        </ul>
+        <!-- Zon opkomst -->
+        <ul class="container container-two">
+            <h2 class="TitelZO">Zonsopkomst:</h2>
+            <img src="" alt="">
+            <p class="zonneStand">13/04/2022</p>
+            <p class="zonneStand">06:45 - 20:36</p>
+        </ul>
+        
+    </li>
+    <li>
+        <!-- Chart nummer 1-->
+        <ul class="container container-three">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script> 
+            <canvas id="myChart"></canvas>
+        </ul>
+        <!-- Het weer vandaag -->
+        <ul class="container container-four">
+            <div class="weather">
+                <p class="city">Weer in Nederland</p>
+                <p class="temp">16°C</p>
+                <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="" class="icon">
+                <p class="Chance">Kans op regen: 50%</p>
+            </div>
+        </ul>
+    </li>
+    <li>
+            <ul class="container large--container">
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script> 
+                <canvas id="mySecondChart"></canvas>
+            </ul>
+    </li>
 </script>
 </body>
 </html>
